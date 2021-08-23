@@ -7,3 +7,7 @@ A simple command to run through [DiscordIntegration](https://github.com/Exiled-T
 
 ### ❓What does it do?❓ 
 It gives you a list of players in the game, with time of the round, you can choose to use discord code block, or a simple message. I recommend using the code block is a bit more orderly, but it is subjective.
+
+## Example image
+![image](https://user-images.githubusercontent.com/36207738/130431725-f3c6e26d-fa61-4ca8-9f7e-8d9588d541e3.png)
+
