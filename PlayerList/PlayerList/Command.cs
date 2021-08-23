@@ -39,7 +39,6 @@ namespace PlayerList
                         msg += PlayerList.Instance.Config.TextTitle;
                         foreach (Player ply in Player.List)
                         {
-                            Log.Info("En el foreach");
                             if (ply.RemoteAdminAccess && PlayerList.Instance.Config.RemarksStaff)
                             {
                                 msg += string.Format(PlayerList.Instance.Config.TextperStaffPlayer, ply.Id, ply.Nickname, ply.Role);
