@@ -24,7 +24,7 @@ namespace PlayerList
             if (sender != null)
             {
                 // RemoteAdmin
-                if (sender is PlayerCommandSender player)
+                if (sender is PlayerCommandSender _)
                 {
                     if (Player.List.Count() >= 1)
                     {
