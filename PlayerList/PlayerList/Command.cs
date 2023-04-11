@@ -26,7 +26,7 @@ namespace PlayerList
                 // RemoteAdmin
                 if (sender is PlayerCommandSender _)
                 {
-                    if (Player.List.Count() >= 1)
+                    if (Player.List.Any())
                     {
                         int max = GameCore.ConfigFile.ServerConfig.GetInt("max_players", 20);
                         int cur = Player.List.Count();
@@ -64,7 +64,7 @@ namespace PlayerList
                 else
                 {
                     // Bot or Console
-                    if (Player.List.Count() >= 1)
+                    if (Player.List.Any())
                     {
                         int max = GameCore.ConfigFile.ServerConfig.GetInt("max_players", 20);
                         int cur = Player.List.Count();

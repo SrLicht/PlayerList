@@ -14,7 +14,9 @@ namespace PlayerList
     public class Config : IConfig
     {
         public bool IsEnabled { get; set; } = true;
-
+        
+        public bool Debug { get; set; } = false;
+        
         public string CommandName { get; set; } = "players";
         public string[] CommandAlias { get; set; } = new string[] { "plys", "caca" };
         public string CommandDescription { get; set; } = "This command returns a list of players to be run with DiscordIntegration";

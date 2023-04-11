@@ -21,7 +21,7 @@ namespace PlayerList
         public static PlayerList Instance => Singleton;
 
         public override string Author => "SrLicht";
-        public override Version Version => new Version(1, 0, 6);
+        public override Version Version => new Version(1, 2, 0);
 
         public override void OnEnabled()
         {
