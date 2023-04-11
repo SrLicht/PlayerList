@@ -27,7 +27,7 @@ namespace PlayerList
         [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
         public string TextTitle { get; set; } = "+-----+-------+--------+\n|  ID  |  Nick  |  Role  |\n";
 
-        [Description("{0} = minutes id, {1} = seconds")]
+        [Description("{0} = minutes, {1} = seconds")]
         [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
         public string TextTimeFormat { get; set; } = "- Round Time: {0}:{1}\n";
 
@@ -35,7 +35,7 @@ namespace PlayerList
         [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
         public string TextTotalPlayersFormat { get; set; } = "-- Players: {0}/{1}\n";
 
-        [Description("{0} = player id, {1} = Nickname, {2} = RoleType| \\n is important")]
+        [Description("{0} = player id, {1} = Nickname, {2} = RoleType | \\n is important")]
         [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
         public string TextperPlayer { get; set; } = "+ {0} - {1} - {2}\n";
         public bool RemarksStaff { get; set; } = true;
