@@ -11,3 +11,6 @@ It gives you a list of players in the game, with time of the round, you can choo
 ## Example image
 ![image](https://user-images.githubusercontent.com/36207738/130431725-f3c6e26d-fa61-4ca8-9f7e-8d9588d541e3.png)
 
+## Important
+This plugin only works on [EXILED](https://github.com/Exiled-Team/EXILED)
+
